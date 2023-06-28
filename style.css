@@ -1,0 +1,130 @@
+
+body{
+    background-image: url("images/margarida-csilva-wVtN1hZRD5U-unsplash.jpg");
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(0, 0, 0);
+    margin:0;
+    height: 80px;
+    position: fixed;
+    left: 0;      
+    top: 0;       
+    width: 100%;  
+}
+.item2 span a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+}
+.item2 span a:hover{
+    color: #F3D531;
+    box-shadow: 0 0.5px 0.3px;
+}
+.title{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-family: Caprasimo;
+    font-size: 30px;
+    color:white;
+    letter-spacing: 2px;
+}
+.item4 img{
+    height :300px;
+    width: 200px;
+    border-radius: 10px;
+}
+.main{
+    padding: 40px;
+    width:70%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #F3D531;
+    background-color: ;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex:1;
+    background-color: rgba(0, 0, 0,0.5);
+    border-radius: 15px;
+}
+.item3 h1{
+    font-size: 48px ;
+}
+.btn{
+    color: #F3D531;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 2px solid;
+    padding: 5px;
+}
+.btn:hover{
+    color: #ffffff;
+    box-shadow: 0 0px 9px #f7f8f9;
+}
+.members{
+    padding: 10px;
+    font-size: 36px;
+    text-align: center;
+    background-color: black;
+    color:white;
+    width: 100%;
+    left: 0;      
+    top: 0;  
+}
+.stoics{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.stoics img{
+    height : 200px;
+    width : 200px;
+    border-radius: 20px;
+    box-shadow: 0 0px 9px #f7f8f9;
+}
+.stoics p{
+    font-size: 20px;
+}
+.quote{
+    background-image: url("images/leonardo-yip-NcWnJmeVtcw-unsplash.jpg");
+    font-size: 36px;
+    padding:100px;
+    color: #F3D531;
+    text-align: center;
+    font-style: italic;
+    font-weight:100;
+    margin-bottom: 0;
+}
+.box{
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color:#F3D531;
+    padding: 60px;
+    margin-top: -30px;
+}
+.copy{
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+}
